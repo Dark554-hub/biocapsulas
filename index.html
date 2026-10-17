@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bio-Cápsulas de Hidrorretención — Dashboard Informativo</title>
+  <meta name="description" content="Transformación de residuos de poda urbana en esponjas biológicas para el ahorro de agua y regeneración de suelos. Conoce las Bio-Cápsulas de Hidrorretención." />
+  <meta name="keywords" content="bio-cápsulas, hidrorretención, biochar, micelio, ahorro de agua, regeneración de suelos, sustentabilidad" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="/logo.png" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="main-nav" class="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">
+        <img src="/logo.png" alt="Bio-Cápsulas Logo" class="nav__logo-img" />
+        <span class="nav__brand">Bio-Cápsulas</span>
+      </a>
+      <div class="nav__links">
+        <a href="#que-es" class="nav__link">¿Qué es?</a>
+        <a href="#proceso" class="nav__link">Proceso</a>
+        <a href="#beneficios" class="nav__link">Beneficios</a>
+        <a href="#comparativa" class="nav__link">Comparativa</a>
+        <a href="#monetizacion" class="nav__link">Modelo</a>
+        <a href="#faq" class="nav__link">FAQ</a>
+      </div>
+      <button id="nav-toggle" class="nav__toggle" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="mobile-menu">
+    <a href="#que-es" class="mobile-menu__link">¿Qué es?</a>
+    <a href="#proceso" class="mobile-menu__link">Proceso</a>
+    <a href="#beneficios" class="mobile-menu__link">Beneficios</a>
+    <a href="#comparativa" class="mobile-menu__link">Comparativa</a>
+    <a href="#monetizacion" class="mobile-menu__link">Modelo</a>
+    <a href="#faq" class="mobile-menu__link">FAQ</a>
+  </div>
+
+  <main>
+    <!-- HERO Section -->
+    <section id="hero" class="hero">
+      <div class="hero__bg">
+        <div class="hero__particles" id="particles"></div>
+      </div>
+      <div class="hero__content reveal">
+        <div class="hero__logo-wrap">
+          <img src="/logo.png" alt="Bio-Cápsulas de Hidrorretención" class="hero__logo" />
+        </div>
+        <div class="hero__badge">Innovación Sustentable</div>
+        <h1 class="hero__title">
+          Bio-Cápsulas de<br/>
+          <span class="hero__title-gradient">Hidrorretención</span>
+        </h1>
+        <p class="hero__subtitle">
+          Transformamos residuos de poda urbana en esponjas biológicas<br class="hide-mobile"/>
+          para el ahorro de agua y la regeneración de suelos.
+        </p>
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <span class="hero__stat-number" data-count="5">0</span><span class="hero__stat-suffix">x</span>
+            <span class="hero__stat-label">Retención de agua</span>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-number" data-count="50">0</span><span class="hero__stat-suffix">%</span>
+            <span class="hero__stat-label">Menos riego</span>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-number" data-count="7">0</span><span class="hero__stat-suffix"> días</span>
+            <span class="hero__stat-label">Producción</span>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-number" data-count="75">0</span><span class="hero__stat-suffix">%</span>
+            <span class="hero__stat-label">Reducción volumen</span>
+          </div>
+        </div>
+        <div class="hero__cta">
+          <a href="#que-es" class="btn btn--primary">Descubre más</a>
+          <a href="#proceso" class="btn btn--ghost">Ver proceso</a>
+        </div>
+      </div>
+      <div class="hero__scroll-indicator">
+        <div class="hero__scroll-mouse">
+          <div class="hero__scroll-wheel"></div>
+        </div>
+        <span>Desliza</span>
+      </div>
+    </section>
+
+    <!-- ¿QUÉ ES? Section -->
+    <section id="que-es" class="section section--light">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">01 — La Idea</span>
+          <h2 class="section__title">¿Qué son las Bio-Cápsulas?</h2>
+        </div>
+        <div class="que-es__grid">
+          <div class="que-es__text reveal">
+            <p class="que-es__lead">
+              En lugar de quemar o tirar la basura vegetal de la ciudad <strong>(hojas, ramas delgadas y recorte de pasto)</strong>, 
+              la trituramos y la mezclamos con <strong>hongos locales benignos (micelio)</strong> y <strong>carbón vegetal (biochar)</strong>.
+            </p>
+            <p>
+              En solo <strong>7 días</strong>, el hongo crece y une toda la poda formando bloques esponjosos 100% naturales 
+              llamados <em>Bio-Cápsulas de Hidrorretención</em>.
+            </p>
+            <p>
+              Estas cápsulas se entierran junto a las raíces de los árboles de parques, camellones y jardines. 
+              Funcionan como una <strong>"batería de agua" subterránea</strong>: absorben el agua de lluvia o de riego 
+              y la liberan poco a poco, manteniendo el suelo húmedo y vivo durante las épocas de calor y sequía.
+            </p>
+          </div>
+          <div class="que-es__visual reveal">
+            <div class="que-es__image-wrapper">
+              <img 
+                src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80" 
+                alt="Planta creciendo en suelo fértil con raíces" 
+                class="que-es__image" 
+                loading="lazy" 
+              />
+              <div class="que-es__image-overlay">
+                <span class="que-es__image-caption">Bio-Cápsula integrada con raíces</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Key ingredients cards -->
+        <div class="ingredients reveal">
+          <div class="ingredient-card">
+            <div class="ingredient-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 6C24 6 12 14 8 22c-2 4-1 8 2 11s8 4 12 2c-4 2-9 5-12 2s-4-7-2-11c4-8 16-20 16-20z" fill="#7CB078" opacity="0.3"/>
+                <path d="M20 8c-3 6-8 14-6 20 1 4 5 7 10 6" stroke="#5A8F5A" stroke-width="2" stroke-linecap="round" fill="none"/>
+                <path d="M24 6c3 6 10 14 8 20-1 4-5 7-10 6" stroke="#7CB078" stroke-width="2" stroke-linecap="round" fill="none"/>
+                <path d="M22 18l2 16" stroke="#3A6B4A" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M24 22c-4-2-6 0-8 3" stroke="#5A8F5A" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+                <path d="M24 28c4-2 6 0 7 3" stroke="#5A8F5A" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="ingredient-card__title">Poda Urbana</h3>
+            <p class="ingredient-card__desc">Hojas, ramas y recortes de pasto que normalmente se desechan o queman.</p>
+          </div>
+          <div class="ingredient-card">
+            <div class="ingredient-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="28" r="8" fill="#A8D5D0" opacity="0.25"/>
+                <path d="M24 20c0 0-6 4-6 8a6 6 0 0012 0c0-4-6-8-6-8z" fill="#89C4C4" opacity="0.4"/>
+                <path d="M20 14c-2-4-1-8 3-10" stroke="#7CB078" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+                <path d="M24 12c0-5 2-8 4-10" stroke="#5A8F5A" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+                <path d="M28 14c2-4 4-6 6-7" stroke="#7CB078" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+                <ellipse cx="24" cy="30" rx="3" ry="2" fill="none" stroke="#3A6B4A" stroke-width="1.5"/>
+                <line x1="18" y1="36" x2="14" y2="42" stroke="#A8D5D0" stroke-width="1.2" stroke-linecap="round"/>
+                <line x1="24" y1="36" x2="24" y2="44" stroke="#89C4C4" stroke-width="1.2" stroke-linecap="round"/>
+                <line x1="30" y1="36" x2="34" y2="42" stroke="#A8D5D0" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="ingredient-card__title">Micelio Local</h3>
+            <p class="ingredient-card__desc">Hongos benignos que actúan como pegamento biológico natural.</p>
+          </div>
+          <div class="ingredient-card">
+            <div class="ingredient-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="12" y="14" width="24" height="22" rx="3" fill="#3A6B4A" opacity="0.15"/>
+                <rect x="14" y="16" width="20" height="18" rx="2" fill="none" stroke="#3A6B4A" stroke-width="1.5"/>
+                <circle cx="20" cy="22" r="2" fill="#5A8F5A" opacity="0.5"/>
+                <circle cx="28" cy="22" r="1.5" fill="#5A8F5A" opacity="0.4"/>
+                <circle cx="24" cy="28" r="2.5" fill="#5A8F5A" opacity="0.5"/>
+                <circle cx="18" cy="30" r="1" fill="#5A8F5A" opacity="0.3"/>
+                <circle cx="30" cy="28" r="1.5" fill="#5A8F5A" opacity="0.3"/>
+                <path d="M19 12v4M24 10v6M29 12v4" stroke="#8B6F47" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="ingredient-card__title">Biochar</h3>
+            <p class="ingredient-card__desc">Carbón vegetal que mejora la estructura del suelo y retiene nutrientes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESO Section -->
+    <section id="proceso" class="section section--dark">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow section__eyebrow--light">02 — El Proceso</span>
+          <h2 class="section__title section__title--light">De residuo a solución en 5 pasos</h2>
+          <p class="section__desc section__desc--light">Un proceso económico, rápido y sin maquinaria industrial compleja.</p>
+        </div>
+
+        <div class="process-image reveal">
+          <img 
+            src="https://images.unsplash.com/photo-1603105037880-880cd4f6be78?w=1000&q=80" 
+            alt="Hojas secas y ramas de poda urbana — materia prima de las bio-cápsulas" 
+            loading="lazy" 
+          />
+        </div>
+
+        <div class="timeline">
+          <div class="timeline__line"></div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__number">01</div>
+            <div class="timeline__content">
+              <div class="timeline__icon">
+                <svg viewBox="0 0 32 32" fill="none"><rect x="4" y="8" width="24" height="18" rx="2" stroke="#7CB078" stroke-width="1.5"/><path d="M4 12h24" stroke="#7CB078" stroke-width="1.5"/><path d="M10 16v6M16 16v6M22 16v6" stroke="#A8D5D0" stroke-width="1.2" stroke-linecap="round"/></svg>
+              </div>
+              <h3 class="timeline__title">Recolección y Clasificación</h3>
+              <p class="timeline__desc">Jardineros y cuadrillas municipales entregan ramas y hojas en centros de acopio vecinales. Con una app sencilla se calcula la mezcla perfecta entre hoja verde y rama seca.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__number">02</div>
+            <div class="timeline__content">
+              <div class="timeline__icon">
+                <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="10" stroke="#7CB078" stroke-width="1.5"/><path d="M12 12l4 4-4 4" stroke="#A8D5D0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 12l-4 4 4 4" stroke="#A8D5D0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <h3 class="timeline__title">Trituración Local</h3>
+              <p class="timeline__desc">La poda se pasa por una trituradora común, reduciendo su volumen en un 75% para no gastar en camiones de basura.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__number">03</div>
+            <div class="timeline__content">
+              <div class="timeline__icon">
+                <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="12" r="6" stroke="#7CB078" stroke-width="1.5"/><path d="M12 18c0 0 0 8 4 10s4-10 4-10" stroke="#A8D5D0" stroke-width="1.5" stroke-linecap="round" fill="none"/><path d="M10 12h12" stroke="#7CB078" stroke-width="1" opacity="0.5"/><path d="M11 10h10" stroke="#7CB078" stroke-width="1" opacity="0.3"/></svg>
+              </div>
+              <h3 class="timeline__title">Pasteurización Solar</h3>
+              <p class="timeline__desc">La mezcla húmeda se calienta con el sol en contenedores cerrados o con vapor simple para eliminar plagas o semillas de maleza.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__number">04</div>
+            <div class="timeline__content">
+              <div class="timeline__icon">
+                <svg viewBox="0 0 32 32" fill="none"><rect x="6" y="10" width="20" height="14" rx="2" stroke="#7CB078" stroke-width="1.5"/><path d="M10 14c2 2 4 1 6 3s4 1 6 3" stroke="#A8D5D0" stroke-width="1.2" stroke-linecap="round" fill="none"/><path d="M10 18c2 1 4 0 6 2s4 0 6 2" stroke="#A8D5D0" stroke-width="1" stroke-linecap="round" fill="none" opacity="0.5"/></svg>
+              </div>
+              <h3 class="timeline__title">Cultivo de la Esponja (7 días)</h3>
+              <p class="timeline__desc">Se agrega la semilla del hongo local y biochar en moldes reutilizables. El hongo crea una red esponjosa que compacta todo el bloque sin gastar electricidad.</p>
+            </div>
+          </div>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__number">05</div>
+            <div class="timeline__content">
+              <div class="timeline__icon">
+                <svg viewBox="0 0 32 32" fill="none"><path d="M16 6c-2 0-4 2-4 4v6c-4 0-6 2-6 4s2 4 4 4h12c2 0 4-2 4-4s-2-4-6-4v-6c0-2-2-4-4-4z" stroke="#7CB078" stroke-width="1.5" fill="none"/><path d="M16 6v-2M12 8l-2-2M20 8l2-2" stroke="#5A8F5A" stroke-width="1.2" stroke-linecap="round"/><path d="M14 24v4M18 24v4M16 24v5" stroke="#8B6F47" stroke-width="1.2" stroke-linecap="round"/></svg>
+              </div>
+              <h3 class="timeline__title">Aplicación en la Ciudad</h3>
+              <p class="timeline__desc">El bloque terminado se entierra al plantar un árbol nuevo o alrededor de árboles que sufren por sequía.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFICIOS Section -->
+    <section id="beneficios" class="section section--gradient">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">03 — Impacto</span>
+          <h2 class="section__title">Beneficios que transforman</h2>
+        </div>
+        <div class="benefits-grid">
+          <div class="benefit-card benefit-card--large reveal">
+            <div class="benefit-card__glow"></div>
+            <div class="benefit-card__icon-wrap">
+              <svg viewBox="0 0 64 64" fill="none" class="benefit-card__svg">
+                <circle cx="32" cy="32" r="28" stroke="url(#water-grad)" stroke-width="2" fill="none"/>
+                <path d="M32 16C32 16 22 28 22 36C22 41.5 26.5 46 32 46C37.5 46 42 41.5 42 36C42 28 32 16 32 16Z" fill="url(#water-grad)" opacity="0.2" stroke="url(#water-grad)" stroke-width="1.5"/>
+                <path d="M28 36c0-2 2-6 4-8" stroke="rgba(255,255,255,0.5)" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <defs><linearGradient id="water-grad" x1="22" y1="16" x2="42" y2="46"><stop offset="0%" stop-color="#89C4C4"/><stop offset="100%" stop-color="#5A8F5A"/></linearGradient></defs>
+              </svg>
+            </div>
+            <h3 class="benefit-card__title">Ahorro de Agua</h3>
+            <p class="benefit-card__desc">Cada bio-cápsula retiene hasta <strong>5 veces su peso en agua</strong>, reduciendo hasta en un <strong>50%</strong> la necesidad de regar parques con pipas.</p>
+            <div class="benefit-card__metric">
+              <span class="benefit-card__metric-value" data-count="50">0</span><span class="benefit-card__metric-suffix">%</span>
+              <span class="benefit-card__metric-label">menos riego requerido</span>
+            </div>
+          </div>
+
+          <div class="benefit-card reveal">
+            <div class="benefit-card__glow"></div>
+            <div class="benefit-card__icon-wrap">
+              <svg viewBox="0 0 48 48" fill="none">
+                <circle cx="24" cy="24" r="16" stroke="#5A8F5A" stroke-width="1.5" fill="none"/>
+                <path d="M14 24c0-5.5 4.5-10 10-10" stroke="#7CB078" stroke-width="2" stroke-linecap="round" fill="none"/>
+                <path d="M24 14c5.5 0 10 4.5 10 10" stroke="#89C4C4" stroke-width="2" stroke-linecap="round" fill="none"/>
+                <path d="M34 24c0 5.5-4.5 10-10 10" stroke="#A8D5D0" stroke-width="2" stroke-linecap="round" fill="none"/>
+                <path d="M24 34c-5.5 0-10-4.5-10-10" stroke="#7CB078" stroke-width="2" stroke-linecap="round" fill="none"/>
+                <circle cx="24" cy="24" r="3" fill="#5A8F5A" opacity="0.3"/>
+                <path d="M20 20l2 2M26 20l-2 2M20 28l2-2M26 28l-2-2" stroke="#3A6B4A" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="benefit-card__title">Regeneración de Suelos</h3>
+            <p class="benefit-card__desc">Devuelve nutrientes a la tierra y crea redes microscópicas que ayudan a las raíces de los árboles a absorber minerales en suelos pobres o pedregosos.</p>
+          </div>
+
+          <div class="benefit-card reveal">
+            <div class="benefit-card__glow"></div>
+            <div class="benefit-card__icon-wrap">
+              <svg viewBox="0 0 48 48" fill="none">
+                <path d="M24 8v4M12 16l3 3M36 16l-3 3M8 28h4M36 28h4" stroke="#7CB078" stroke-width="1.5" stroke-linecap="round"/>
+                <circle cx="24" cy="26" r="8" stroke="#5A8F5A" stroke-width="1.5" fill="none"/>
+                <path d="M20 26c0-2.2 1.8-4 4-4" stroke="#A8D5D0" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+                <path d="M10 38h28" stroke="#3A6B4A" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M14 38v-2M20 38v-4M28 38v-3M34 38v-2" stroke="#7CB078" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="benefit-card__title">Impacto Ambiental</h3>
+            <p class="benefit-card__desc">Evita que la poda se queme o se pudra en basureros generando gases contaminantes. Salva árboles urbanos durante las olas de calor.</p>
+          </div>
+
+          <div class="benefit-card reveal">
+            <div class="benefit-card__glow"></div>
+            <div class="benefit-card__icon-wrap">
+              <svg viewBox="0 0 48 48" fill="none">
+                <circle cx="18" cy="18" r="6" stroke="#5A8F5A" stroke-width="1.5" fill="none"/>
+                <circle cx="30" cy="18" r="6" stroke="#89C4C4" stroke-width="1.5" fill="none"/>
+                <path d="M10 36c0-4 3.6-8 8-8h4" stroke="#5A8F5A" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+                <path d="M38 36c0-4-3.6-8-8-8h-4" stroke="#89C4C4" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+                <circle cx="24" cy="32" r="2" fill="#7CB078" opacity="0.4"/>
+              </svg>
+            </div>
+            <h3 class="benefit-card__title">Comunidad Activa</h3>
+            <p class="benefit-card__desc">Vecinos reciben puntos por entregar poda limpia. Escuelas y universidades participan reproduciendo el hongo local en sus laboratorios.</p>
+          </div>
+
+          <div class="benefit-card reveal">
+            <div class="benefit-card__glow"></div>
+            <div class="benefit-card__icon-wrap">
+              <svg viewBox="0 0 48 48" fill="none">
+                <path d="M16 34c-2 0-4-1-5-3s0-4 1-5c-2-1-3-3-2-5s3-3 5-3c0-2 2-4 4-4s4 1 5 3c1-2 3-3 5-3s4 2 4 4c2 0 4 1 5 3s0 4-2 5c1 1 2 3 1 5s-3 3-5 3" stroke="#7CB078" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+                <path d="M24 22v12" stroke="#5A8F5A" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M20 26l4-4 4 4" stroke="#5A8F5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <path d="M18 38h12" stroke="#8B6F47" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="benefit-card__title">Biodiversidad</h3>
+            <p class="benefit-card__desc">El micelio y biochar crean un ecosistema microscópico que fortalece la vida del suelo y mejora la salud de las plantas circundantes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACT VISUAL Section -->
+    <section class="section section--impact">
+      <div class="impact__image-wrapper">
+        <img 
+          src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1400&q=80" 
+          alt="Parque urbano con árboles verdes" 
+          class="impact__image" 
+          loading="lazy" 
+        />
+        <div class="impact__overlay"></div>
+      </div>
+      <div class="container impact__content reveal">
+        <h2 class="impact__title">Ciudades más verdes,<br/>suelos más vivos.</h2>
+        <p class="impact__desc">Nuestra visión es que cada árbol urbano tenga una bio-cápsula que lo proteja de la sequía y regenere el suelo a su alrededor.</p>
+      </div>
+    </section>
+
+    <!-- COMPARATIVA Section -->
+    <section id="comparativa" class="section section--light">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">04 — Innovación</span>
+          <h2 class="section__title">¿Por qué es diferente a la composta?</h2>
+          <p class="section__desc">Las bio-cápsulas no son simplemente composta. Son una tecnología diferente con ventajas únicas.</p>
+        </div>
+
+        <div class="comparison reveal">
+          <div class="comparison__header">
+            <div class="comparison__label">Característica</div>
+            <div class="comparison__col comparison__col--old">
+              <span class="comparison__badge comparison__badge--old">Composta Tradicional</span>
+            </div>
+            <div class="comparison__col comparison__col--new">
+              <span class="comparison__badge comparison__badge--new">Bio-Cápsula</span>
+            </div>
+          </div>
+
+          <div class="comparison__row">
+            <div class="comparison__feature">
+              <svg viewBox="0 0 20 20" fill="none" class="comparison__icon"><circle cx="10" cy="10" r="8" stroke="#5A8F5A" stroke-width="1.5"/><path d="M10 6v4l3 3" stroke="#5A8F5A" stroke-width="1.5" stroke-linecap="round"/></svg>
+              Tiempo de producción
+            </div>
+            <div class="comparison__col comparison__col--old">Tarda varios meses</div>
+            <div class="comparison__col comparison__col--new">
+              <span class="comparison__highlight">Lista en 1 semana</span>
+            </div>
+          </div>
+
+          <div class="comparison__row">
+            <div class="comparison__feature">
+              <svg viewBox="0 0 20 20" fill="none" class="comparison__icon"><rect x="3" y="8" width="14" height="8" rx="1" stroke="#5A8F5A" stroke-width="1.5"/><path d="M6 8V6c0-1 1-2 4-2s4 1 4 2v2" stroke="#5A8F5A" stroke-width="1.5" fill="none"/></svg>
+              Manejo de materia fibrosa
+            </div>
+            <div class="comparison__col comparison__col--old">Dificultad con ramas gruesas</div>
+            <div class="comparison__col comparison__col--new">
+              <span class="comparison__highlight">Aprovecha estructura lignocelulósica</span>
+            </div>
+          </div>
+
+          <div class="comparison__row">
+            <div class="comparison__feature">
+              <svg viewBox="0 0 20 20" fill="none" class="comparison__icon"><path d="M10 3c0 0-5 5-5 9a5 5 0 0010 0c0-4-5-9-5-9z" stroke="#5A8F5A" stroke-width="1.5" fill="none"/></svg>
+              Retención de agua
+            </div>
+            <div class="comparison__col comparison__col--old">El agua se escurre con rapidez</div>
+            <div class="comparison__col comparison__col--new">
+              <span class="comparison__highlight">Esponja que retiene agua por meses</span>
+            </div>
+          </div>
+
+          <div class="comparison__row">
+            <div class="comparison__feature">
+              <svg viewBox="0 0 20 20" fill="none" class="comparison__icon"><path d="M3 10h14M10 3v14" stroke="#5A8F5A" stroke-width="1.5" stroke-linecap="round"/><circle cx="10" cy="10" r="3" stroke="#5A8F5A" stroke-width="1.5" fill="none"/></svg>
+              Evolución en el suelo
+            </div>
+            <div class="comparison__col comparison__col--old">Abono de descomposición previa</div>
+            <div class="comparison__col comparison__col--new">
+              <span class="comparison__highlight">Retenedor inmediato → tierra fértil</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MONETIZACIÓN Section -->
+    <section id="monetizacion" class="section section--dark">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow section__eyebrow--light">05 — Modelo de Negocio</span>
+          <h2 class="section__title section__title--light">Un negocio rentable y autosustentable</h2>
+          <p class="section__desc section__desc--light">3 canales de ingreso que aseguran la viabilidad del proyecto.</p>
+        </div>
+
+        <div class="monetization-grid">
+          <div class="monetization-card reveal">
+            <div class="monetization-card__tag">B2G</div>
+            <div class="monetization-card__icon">
+              <svg viewBox="0 0 56 56" fill="none">
+                <rect x="14" y="24" width="28" height="22" rx="2" stroke="#7CB078" stroke-width="1.5" fill="none"/>
+                <path d="M28 10l-16 14h32L28 10z" stroke="#7CB078" stroke-width="1.5" fill="none"/>
+                <rect x="22" y="32" width="6" height="8" rx="1" stroke="#A8D5D0" stroke-width="1.2" fill="none"/>
+                <path d="M28 14v-2" stroke="#A8D5D0" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="18" y1="46" x2="38" y2="46" stroke="#5A8F5A" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3 class="monetization-card__title">Gobierno</h3>
+            <p class="monetization-card__client">Municipios y Ayuntamientos</p>
+            <p class="monetization-card__desc">Ahorro directo en pipas de agua y reducción en reposición de árboles muertos por sequía para parques y campañas de reforestación.</p>
+          </div>
+
+          <div class="monetization-card monetization-card--featured reveal">
+            <div class="monetization-card__tag">B2B</div>
+            <div class="monetization-card__icon">
+              <svg viewBox="0 0 56 56" fill="none">
+                <rect x="8" y="20" width="16" height="26" rx="2" stroke="#7CB078" stroke-width="1.5" fill="none"/>
+                <rect x="32" y="12" width="16" height="34" rx="2" stroke="#89C4C4" stroke-width="1.5" fill="none"/>
+                <path d="M12 26h8M12 30h8M12 34h8" stroke="#A8D5D0" stroke-width="1" stroke-linecap="round"/>
+                <path d="M36 18h8M36 22h8M36 26h8M36 30h8" stroke="#A8D5D0" stroke-width="1" stroke-linecap="round"/>
+                <line x1="4" y1="46" x2="52" y2="46" stroke="#5A8F5A" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3 class="monetization-card__title">Empresas</h3>
+            <p class="monetization-card__client">Inmobiliarias, hoteles, paisajistas</p>
+            <p class="monetization-card__desc">Garantía de supervivencia y crecimiento rápido de áreas verdes en fraccionamientos sin consumo excesivo de agua.</p>
+          </div>
+
+          <div class="monetization-card reveal">
+            <div class="monetization-card__tag">B2C</div>
+            <div class="monetization-card__icon">
+              <svg viewBox="0 0 56 56" fill="none">
+                <path d="M16 46V20l12-10 12 10v26H16z" stroke="#7CB078" stroke-width="1.5" fill="none"/>
+                <rect x="22" y="32" width="12" height="14" rx="1" stroke="#A8D5D0" stroke-width="1.2" fill="none"/>
+                <path d="M28 32v14" stroke="#A8D5D0" stroke-width="1" stroke-linecap="round"/>
+                <rect x="20" y="22" width="5" height="5" rx="1" stroke="#89C4C4" stroke-width="1.2" fill="none"/>
+                <rect x="31" y="22" width="5" height="5" rx="1" stroke="#89C4C4" stroke-width="1.2" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="monetization-card__title">Ciudadanos</h3>
+            <p class="monetization-card__client">Viveros y tiendas de jardinería</p>
+            <p class="monetization-card__desc">Formato "Mini-Cápsulas" para macetas, huertos caseros y jardines, protegiendo las plantas ante la falta de riego.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section section--light">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow">06 — Preguntas Frecuentes</span>
+          <h2 class="section__title">Preguntas Rápidas</h2>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item reveal" data-faq>
+            <button class="faq-item__question" aria-expanded="false">
+              <span>¿Las bio-cápsulas son tóxicas o contaminan?</span>
+              <svg class="faq-item__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer">
+              <p>No. Están hechas al 100% de materiales naturales: poda urbana, micelio de hongos locales y biochar. No contienen químicos ni plásticos. Se biodegradan de forma segura enriqueciendo el suelo.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal" data-faq>
+            <button class="faq-item__question" aria-expanded="false">
+              <span>¿Cuánto dura una bio-cápsula en el suelo?</span>
+              <svg class="faq-item__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer">
+              <p>Dependiendo de las condiciones del suelo, una bio-cápsula mantiene su capacidad de retención de agua entre 12 y 24 meses. Conforme se degrada, se transforma progresivamente en tierra fértil rica en nutrientes.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal" data-faq>
+            <button class="faq-item__question" aria-expanded="false">
+              <span>¿Qué tipo de hongo se utiliza?</span>
+              <svg class="faq-item__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer">
+              <p>Se utilizan hongos saprofitos locales, como especies del género <em>Pleurotus</em> (hongo seta). Son completamente seguros, no patógenos, y se alimentan exclusivamente de materia orgánica muerta como la madera triturada.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal" data-faq>
+            <button class="faq-item__question" aria-expanded="false">
+              <span>¿Se puede usar en cualquier tipo de suelo?</span>
+              <svg class="faq-item__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer">
+              <p>Sí. Las bio-cápsulas son especialmente efectivas en suelos pobres, pedregosos o arcillosos donde el agua se pierde rápidamente. También funcionan en suelos arenosos y tierra de jardín estándar.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal" data-faq>
+            <button class="faq-item__question" aria-expanded="false">
+              <span>¿Cómo participo como vecino o jardinero?</span>
+              <svg class="faq-item__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer">
+              <p>Puedes entregar tu poda limpia en los centros de acopio vecinales y recibir puntos canjeables por plantas, tierra fértil o descuentos en pagos municipales. Escuelas y universidades pueden participar reproduciendo el hongo local en laboratorios.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal" data-faq>
+            <button class="faq-item__question" aria-expanded="false">
+              <span>¿Cuánta agua ahorra realmente?</span>
+              <svg class="faq-item__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer">
+              <p>Cada bio-cápsula puede retener hasta 5 veces su peso en agua. En zonas de parques y camellones, esto se traduce en una reducción de hasta el 50% en la necesidad de riego por pipas, generando ahorros significativos para los municipios.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal" data-faq>
+            <button class="faq-item__question" aria-expanded="false">
+              <span>¿Cuál es la diferencia entre biochar y carbón normal?</span>
+              <svg class="faq-item__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer">
+              <p>El biochar es carbón vegetal producido mediante pirólisis controlada (sin oxígeno) a partir de biomasa. A diferencia del carbón para asador, el biochar tiene una estructura porosa que retiene agua y nutrientes, mejorando la fertilidad del suelo a largo plazo.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal" data-faq>
+            <button class="faq-item__question" aria-expanded="false">
+              <span>¿Se necesita equipo especializado para producirlas?</span>
+              <svg class="faq-item__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer">
+              <p>No. El proceso requiere solo una trituradora común, contenedores para pasteurización solar y moldes reutilizables (cubetas o cajas). No se necesita maquinaria industrial ni electricidad para el crecimiento del micelio.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__brand">
+            <img src="/logo.png" alt="Bio-Cápsulas Logo" class="footer__logo-img" />
+            <span class="footer__name">Bio-Cápsulas de Hidrorretención</span>
+          </div>
+          <p class="footer__tagline">Transformando residuos en vida.</p>
+          <div class="footer__bottom">
+            <p>&copy; 2026 Bio-Cápsulas — Innovación Sustentable para Ciudades</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
